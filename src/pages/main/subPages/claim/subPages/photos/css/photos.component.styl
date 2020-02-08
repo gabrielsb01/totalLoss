@@ -1,0 +1,88 @@
+.content
+    margin 10px 0
+    padding 20px
+    
+.bodyPhotosBeforeRender
+    background white
+    margin 10px 0 0 !important
+    width 100% !important
+    height 100% !important
+
+.areaButtonUpload
+    align-items center
+    display flex
+    justify-content center
+    color #333
+    background white
+    list-style-type none
+    border 1px solid #efe8e8
+    position relative
+    cursor pointer
+
+    img 
+        max-width 255px
+        max-height 144px
+    
+.areaButtonUpload:hover 
+
+    img
+        -webkit-filter grayscale(100%) blur(3px)
+        filter grayscale(100%) blur(3px)
+
+    .preVisualizacao
+        z-index 999
+        display inline-flex !important
+
+.buttonUpload
+    text-align center
+    height 100%
+    width 100%
+    display flex
+    justify-content center
+    flex-direction column
+
+.uploadPhoto
+    margin 0 auto
+    width 165px
+
+.badge
+    background-color #000
+    color #fff
+    border-radius 50%
+    padding 8px
+    display flex
+    margin-bottom 10px
+
+.labelUpload
+    padding 10px
+
+.preVisualizacao 
+    display none
+    position absolute
+
+    .divGallery
+        background #000
+        color #fff
+        margin-right 10px
+    
+    .divDelete
+        background red
+        color #fff
+
+.sending 
+    height 100%
+    width 100%
+    display flex
+    justify-content center
+    align-items center
+    position relative
+    background #00000099
+    z-index 9
+    
+    span
+        position absolute
+        left 50%
+        top 50%
+        transform translate(-50%,-50%)
+        font-size 11px
+        color #fff

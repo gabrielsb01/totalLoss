@@ -1,0 +1,90 @@
+@import '../../../../../assets/css/general.styl'
+
+.contentPhotos
+    padding 0 16px
+    padding-bottom 150px
+    overflow auto
+    img 
+        max-width 100%
+.cardContent
+    min-height 125px
+    max-height 125px
+    display flex
+    flex-direction column
+    justify-content space-between
+
+.imgItem
+    img
+        max-height 125px
+        max-width 100%
+    p
+        width 100%
+        white-space nowrap
+        text-overflow ellipsis
+        overflow hidden
+h5
+    text-align center
+
+
+
+.ButtonSend
+    position absolute
+    bottom 16px
+    right 16px
+
+.cam
+    width 100%
+    display flex
+    justify-content center
+    padding 15px
+
+.sending 
+    height 100%
+    width 100%
+    display flex
+    justify-content center
+    align-items center
+    position absolute
+    background #00000099
+    z-index 9
+    
+    span
+      position absolute
+      left 50%
+      top 50%
+      transform translate(-50%,-50%)
+      font-size 11px
+      color primary-color-white
+
+.subtitle
+    background-color #fff
+    position absolute
+    right 0
+    left 0
+    bottom 0
+    padding 16px
+
+    textarea
+        font-size 17px
+        font-weight 500
+
+    .confirmation
+        display flex
+
+    .confirmation_button
+        width 100%
+        button
+            background-color transparent
+            border none
+            width 100%
+            text-align center
+            padding 10px
+            display flex
+            flex-direction column
+        p
+            font-size 16px
+            font-weight 500
+            text-transform uppercase
+
+.iconClose
+    justify-content flex-end

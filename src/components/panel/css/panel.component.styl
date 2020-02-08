@@ -1,0 +1,34 @@
+@import '../../../assets/css/general.styl'
+
+.panel
+  flex-grow 1
+  border-radius 4px
+  background-color #fff
+  height auto
+  border 1px solid #CCCECE
+  min-height 100%
+
+  .panelBody
+    height 100%
+
+  .panelHeader
+    display flex
+    align-items center
+    justify-content space-between
+    border-top-left-radius 3px
+    border-top-right-radius 3px
+    background-color #EDEDED
+    border-bottom 1px solid
+    border-color #CCCECE
+    text-transform uppercase
+
+    .panelTitle
+      padding 15px
+
+    .panelAction
+      padding-right 15px
+
+
+@media print
+  .panelHeader
+    height 24px

@@ -1,0 +1,34 @@
+// SOLERA FLEXBOX SYSTEM
+
+flexVertical(spacer)
+  display flex
+  display -webkit-box
+  display -ms-flexbox
+  flex-direction column
+  -webkit-box-orient vertical
+  -webkit-box-direction normal
+  if spacer
+    flex 1
+    overflow hidden
+    min-height 1px
+
+
+flexHorizontal(spacer)
+  display flex
+  display -webkit-box
+  display -ms-flexbox
+  flex-direction row
+  -webkit-box-orient horizontal
+  -ms-flex-direction row
+  -webkit-box-direction normal
+  if spacer
+    flex 1
+    overflow hidden
+
+patternInnerPage()
+  position relative
+  height 100%
+  padding 2rem
+  background primary-color-back
+  overflow hidden
+  display flex

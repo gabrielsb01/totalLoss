@@ -1,0 +1,111 @@
+.gallery
+    position relative
+    display flex
+    flex-direction column
+    align-items center
+    justify-content center
+    background-color #000
+
+    .iconClose 
+        position absolute
+        top 15px
+        z-index 999
+        background-color rgba(68,72,84,0.478)
+        color #fff
+        right 0
+        margin-right 10px
+
+    .iconFull 
+        position absolute
+        top 15px
+        z-index 999
+        background-color rgba(68,72,84,0.478)
+        color #fff
+        right 0
+        margin-right 75px
+
+    .imgFull
+        width 100%
+        min-width 900px
+        display flex
+        flex-direction column
+        align-items center
+        align-content center
+        position relative
+        justify-content center
+
+    .arrows
+        position absolute
+        top 45%
+        width 100%
+        display flex
+        justify-content space-between
+
+        button 
+            background-color #4448547a
+            color #fff
+
+        .arrowLeft
+            margin-left 10px
+
+        .arrowRight
+            margin-right 10px
+    .thumbs
+        display flex
+        flex-wrap nowrap
+        overflow-x auto
+        align-content start
+        width 100%
+
+        .thumbItem
+            width 100px !important
+            height 100px !important
+            margin 1px 
+            flex 0 0 auto
+
+            .thumbImg
+                max-width 98px
+                max-height 98px
+                height 65px
+      
+            .thumbSelected
+                border 1px solid fourthy-color-orange
+
+.galleryFull
+  overflow-y hidden
+
+.sending 
+    height 100%
+    width 100%
+    display flex
+    justify-content center
+    align-items center
+    position absolute
+    background #00000099
+    z-index 9
+    
+    span
+      position absolute
+      left 50%
+      top 50%
+      transform translate(-50%,-50%)
+      font-size 11px
+      color primary-color-white
+
+.sending 
+    height 100%
+    width 100%
+    display flex
+    justify-content center
+    align-items center
+    position absolute
+    background #00000099
+    z-index 9999
+    
+    span
+        position absolute
+        left 50%
+        top 50%
+        transform translate(-50%,-50%)
+        font-size 11px
+        color #fff

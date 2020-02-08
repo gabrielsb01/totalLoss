@@ -1,0 +1,33 @@
+@import '../../../assets/css/general.styl'
+
+.authWall
+    position relative
+    background grey url('../../../assets/images/ferrari.jpg') no-repeat
+    background-size cover
+    padding 15px
+    flexHorizontal(true)
+
+    .authSoleraLogo
+      position absolute
+      bottom 2.5rem
+      right 1rem
+      width 10rem
+      height 3.2rem
+      background url('../../../assets/images/solera.svg') no-repeat
+      display flex
+    
+    .sending 
+        height 100%
+        width 100%
+        display flex
+        justify-content center
+        align-items center
+        position relative
+
+        span
+            position absolute
+            left 50%
+            top 50%
+            transform translate(-50%,-50%)
+            font-size 12px
+            color primary-color-white
